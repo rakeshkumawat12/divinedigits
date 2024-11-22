@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "geist", "cursive";
+  box-sizing: border-box;
+}
+
+::selection {
+  background-color: rgb(0, 53, 114);
+  color: white;
+}
+
+@layer base {
+  @font-face {
+    font-family: "Geist";
+    font-weight: 400;
+    font-style: normal;
+    src: url("/src/fonts/Geist-Regular.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "Geist";
+    font-weight: 500;
+    font-style: normal;
+    src: url("/src/fonts/Geist-Medium.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "Geist";
+    font-weight: 600;
+    font-style: normal;
+    src: url("/src/fonts/Geist-SemiBold.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "Geist";
+    font-weight: 700;
+    font-style: normal;
+    src: url("/src/fonts/Geist-Bold.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "Geist";
+    font-weight: 800;
+    font-style: normal;
+    src: url("/src/fonts/Geist-ExtraBold.woff2") format("woff2");
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@layer components {
+  .btn-primary {
+    @apply py-2 px-5 bg-white text-black font-semibold rounded-lg shadow-md hover:bg-gray-400 focus:outline-none focus:ring focus:bg-yellow-50 focus:ring-opacity-75;
+  }
+
+  .btn-border {
+    @apply relative inline-flex h-12 overflow-hidden rounded-lg p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50;
+  }
+
+  .btn-animation {
+    @apply absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)];
+  }
+  .btn-content {
+    @apply inline-flex h-full w-full cursor-pointer items-center justify-center rounded-lg bg-slate-950 px-6 py-4 text-base font-medium text-white backdrop-blur-3xl;
+  }
+
+  .section-header {
+    @apply text-3xl font-medium;
+  }
+  .section-subheader {
+    @apply text-2xl font-normal;
+  }
+
+  .input-text {
+    @apply rounded-md border-[1px] border-slate-100 focus:border-[#512DA8] focus:ring-2 text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out;
+  }
+
+  .shimmer{
+    @apply inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50
+  }
+}
