@@ -47,10 +47,10 @@ Live Demo: https://numerologyapp.example.com
 
 | **Feature**              | **Screenshot**                              |
 |---------------------------|---------------------------------------------|
-| **Home Page**   | ![Numerology Insights](/client/src/assets/Divine-Digits-Home.png) |
-| **Date input**| ![Marriage Compatibility](/client/src/assets/Divine-digits-input.png) |
-| **Main Page**  | ![Lo-Shu Grid Analysis](/client/src/assets/Divine-digits-Main.png) |
-| **Signature Analysis**        | ![User Dashboard](/client/src/assets/Divine-digits-SignAnalysis.png) |
+| **Home Page**   | ![Numerology Insights](/src/assets/Divine-Digits-Home.png) |
+| **Date input**| ![Marriage Compatibility](/src/assets/Divine-digits-input.png) |
+| **Main Page**  | ![Lo-Shu Grid Analysis](/src/assets/Divine-digits-Main.png) |
+| **Signature Analysis**        | ![User Dashboard](/src/assets/Divine-digits-SignAnalysis.png) |
 
 
 ## **Contributing**
@@ -63,13 +63,6 @@ Let others know how they can contribute:
 
 ## **Future improvements**
 •	Integrate additional numerology features.
-
-## Contact
-
-•	Author: Rakesh Kumawat
-•	Email: rakeshkumawatrrkk12877@gmail.com
-•	LinkedIn: https://www.linkedin.com/in/kumawatrakesh/
-•	Twitter: https://x.com/RakeshKumawattt
 
 ## Testing
 
@@ -86,3 +79,11 @@ To ensure everything is working correctly, you can run the test suite provided w
    ```bash
    npm run test
     ```
+
+## Contact
+
+- Author: Rakesh Kumawat
+- Email: rakeshkumawatrrkk12877@gmail.com
+- LinkedIn: https://www.linkedin.com/in/kumawatrakesh/
+- Twitter: https://x.com/RakeshKumawattt
+
