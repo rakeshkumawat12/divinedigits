@@ -25,7 +25,7 @@ Divine Digits combines ancient numerology techniques with modern technology to d
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/yourusername/divine-digits.git
+   git clone https://github.com/rakeshkumawat12/divinedigits.git
    cd divine-digits
    ```
 
@@ -41,7 +41,7 @@ Divine Digits combines ancient numerology techniques with modern technology to d
     npm run dev
     ```
 
-Live Demo: https://numerologyapp.example.com
+Live Demo: https://divinedigits.vercel.app/
 
 ## **Screenshots**
 

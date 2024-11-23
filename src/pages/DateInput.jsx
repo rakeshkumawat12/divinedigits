@@ -23,8 +23,15 @@ const DateInput = () => {
       />
 
       <div className="z-10 flex flex-col items-center justify-center bg-transparent gap-4">
-        <div className="w-fit">
+        <div className="w-fit bg-transparent ">
+          <label
+            htmlFor="dobdate"
+            className="block text-center text-gray-400 text-sm font-bold mb-2 bg-transparent"
+          >
+            Select your Date of Birth
+          </label>
           <input
+            id="dobdate"
             className="input-text bg-white text-black cursor-pointer"
             type="date"
             onChange={(e) => addDate(e.target.value)}
