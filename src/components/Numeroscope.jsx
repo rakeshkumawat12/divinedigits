@@ -79,7 +79,7 @@ const Numeroscope = () => {
       )),
     },
     {
-      title: "Heart Plane Qualities",
+      title: "Vision Plane Qualities",
       description: visionPlaneQualities.map((item, idx) => (
         <div className="flex gap-1" key={idx}>
           {" "}
@@ -90,7 +90,7 @@ const Numeroscope = () => {
       )),
     },
     {
-      title: "Heart Plane Qualities",
+      title: "Will Plane Qualities",
       description: willPlaneQualities.map((item, idx) => (
         <div className="flex gap-1" key={idx}>
           {" "}
@@ -101,7 +101,7 @@ const Numeroscope = () => {
       )),
     },
     {
-      title: "Heart Plane Qualities",
+      title: "Action Plane Qualities",
       description: actionPlaneQualities.map((item, idx) => (
         <div className="flex gap-1" key={idx}>
           {" "}
