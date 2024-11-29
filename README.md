@@ -46,11 +46,11 @@ Live Demo: https://divinedigits.vercel.app/
 ## **Screenshots**
 
 | **Feature**              | **Screenshot**                              |
-|---------------------------|---------------------------------------------|
-| **Home Page**   | ![Numerology Insights](/src/assets/Divine-Digits-Home.png) |
-| **Date input**| ![Marriage Compatibility](/src/assets/Divine-digits-input.png) |
-| **Main Page**  | ![Lo-Shu Grid Analysis](/src/assets/Divine-digits-Main.png) |
-| **Signature Analysis**        | ![User Dashboard](/src/assets/Divine-digits-SignAnalysis.png) |
+|--------------------------|---------------------------------------------|
+| **Home Page**            | ![Home Page](src/assets/Divine-Digits-Home.png) |
+| **Date Input**           | ![Date Input](src/assets/Divine-digits-input.png) |
+| **Main Page**            | ![Main Page](src/assets/Divine-digits-Main.png) |
+| **Signature Analysis**   | ![Signature Analysis](src/assets/Divine-digits-SignAnalysis.png) |
 
 
 ## **Contributing**
