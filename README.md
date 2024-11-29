@@ -48,9 +48,9 @@ Live Demo: https://divinedigits.vercel.app/
 | **Feature**              | **Screenshot**                              |
 |--------------------------|---------------------------------------------|
 | **Home Page**            | ![Home Page](src/assets/Divine-Digits-Home.png) |
-| **Date Input**           | ![Date Input](src/assets/Divine-digits-input.png) |
-| **Main Page**            | ![Main Page](src/assets/Divine-digits-Main.png) |
-| **Signature Analysis**   | ![Signature Analysis](src/assets/Divine-digits-SignAnalysis.png) |
+| **Date Input**           | ![Date Input](src/assets/Divine-Digits-input.png) |
+| **Main Page**            | ![Main Page](src/assets/Divine-Digits-Main.png) |
+| **Signature Analysis**   | ![Signature Analysis](src/assets/Divine-Digits-SignAnalysis.png) |
 
 
 ## **Contributing**
